@@ -1,0 +1,83 @@
+.game-container {
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.btn{
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.start-btn {
+  background-color: green;
+}
+.restart-btn{
+background-color: red;
+}
+.team {
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.winner {
+  background-color: #d4edda;
+  font-weight: bold;
+}
+.winner h2 {
+  color: #155724;
+}
+.winner > p, .loser > p {
+font: 700 24px Arial, sans-serif;
+}
+
+.loser {
+  background-color: #f8d7da;
+  font-weight: bold;
+}
+.loser h2 {
+  color: #721c24;
+}
+.team-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.pokemon-card {
+  align-items: center;
+  background-color: beige;
+  border-radius: 15px;
+  box-shadow: 0 0 4px 4px #3d3838;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  min-height: 340px;
+  width: 250px;
+}
+
+.pokemon-card img {
+  height: 150px;
+  object-fit: cover;
+  width: 150px;
+}
+.pokemon-card h4{
+  color: blue;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+
