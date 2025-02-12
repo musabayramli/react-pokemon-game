@@ -41,7 +41,7 @@ const Game = () => {
     setTeam2(team2);
     setRound(round + 1);
 
-    if (round === 4) {
+    if (round === 5) {
       setShowModal(true); 
     }
   };
