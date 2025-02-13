@@ -34,6 +34,7 @@ const Game = () => {
   };
 
   const nextRound = () => {
+    if (round >5) return;
     const shuffledData = shuffleArray([...pokemonData]);
     const team1 = shuffledData.slice(0, 4);
     const team2 = shuffledData.slice(4, 8);
@@ -41,7 +42,7 @@ const Game = () => {
     setTeam2(team2);
     setRound(round + 1);
 
-    if (round === 5) {
+    if (round === 4) {
       setShowModal(true); 
     }
   };
