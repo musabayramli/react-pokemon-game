@@ -51,7 +51,6 @@ const Game = () => {
   const team2Score = team2.reduce((sum, p) => sum + p.base_experience, 0);
 
   const winner = team1Score > team2Score ? "Team 1 Wins!" : "Team 2 Wins!";
-  const loser = team1Score > team2Score ? "Team 2 Loses" : "Team 1 Loses";
 
   const closeModal = () => {
     setShowModal(false);
